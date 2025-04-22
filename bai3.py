@@ -21,7 +21,6 @@ class ColorPoint(Point):
         print(f"({self.getX()}, {self.getY()}): {self.__color}")
 
     def setXY(self, x, y):
-        # Cập nhật x, y thông qua move nếu cần hoặc thiết lập trực tiếp
         self._Point__x = x
         self._Point__y = y
 
